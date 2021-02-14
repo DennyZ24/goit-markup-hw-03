@@ -23,10 +23,11 @@
 
 .hero-title {
   font-weight: 900;
-  color: #ffffff;
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
+
+  color: #ffffff;
 
   margin-top: 0px;
   margin-bottom: 30px;
@@ -36,7 +37,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
   padding: 10px 32px;
   border-radius: 4px;
 
@@ -51,10 +51,21 @@
   padding: 94px 0px;
 }
 
-.feature {
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+
+  padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  display: flex;
+  margin-right: calc(-1 * var(--card-gap));
+}
+
+.feature-list .item {
+  flex-basis: calc(100% / 4 - var(--card-gap));
+
+  margin-right: var(--card-gap);
 }
 
 .feature-title {
@@ -78,28 +89,50 @@
 
 /* Специализация команды */
 .img-list {
-  margin-bottom: 0px;
   display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: calc(-1 * var(--card-gap));
+}
+
+.img-list .item {
+  flex-basis: calc(100% / 3 - var(--card-gap));
+  margin-right: var(--card-gap);
 }
 
 /* Команда */
-.team {
+.team-list {
   display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
 
   margin: 0px;
+  margin-right: calc(-1 * var(--card-gap));
   padding: 0px;
-  margin-left: -30px;
 }
 
-.team-list {
-  border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
-
-  margin-left: 30px;
+.team-list .item {
+  flex-basis: calc(100% / 4 - var(--card-gap));
   margin-bottom: 0px;
   margin-top: 0px;
+  margin-right: var(--card-gap);
 
   text-align: center;
+
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+}
+
+.card .thumb {
+  margin-bottom: 30px;
+}
+
+.card-text {
+  padding-bottom: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .team-title {
@@ -119,7 +152,7 @@
   line-height: 1.2;
 
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .section-team {
