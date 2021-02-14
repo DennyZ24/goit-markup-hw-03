@@ -5,6 +5,8 @@
   line-height: 1.2;
   text-align: center;
   color: var(--second-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .nav-link.link-now {
@@ -14,6 +16,9 @@
 /* Герой */
 .hero {
   background-color: var(--bg-color);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .hero-title {
@@ -21,8 +26,10 @@
   color: #ffffff;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .hero-link {
@@ -30,11 +37,25 @@
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+
   color: #ffffff;
   background-color: var(--brand-color);
+
+  display: inline-block;
 }
 
 /* Преимущества */
+.section {
+  padding: 94px 0px;
+}
+
+.feature {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+}
 
 .feature-title {
   font-style: normal;
@@ -43,29 +64,65 @@
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--second-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .feature-text {
   font-style: normal;
   font-size: 14px;
   line-height: 2;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* Специализация команды */
+.img-list {
+  margin-bottom: 0px;
+  display: flex;
 }
 
 /* Команда */
+.team {
+  display: flex;
+
+  margin: 0px;
+  padding: 0px;
+  margin-left: -30px;
+}
+
+.team-list {
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  text-align: center;
+}
+
 .team-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: var(--second-color);
+
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .team-text {
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .section-team {
   background-color: #f5f4fa;
+  padding: 94px 0px;
 }
