@@ -1,0 +1,31 @@
+.nav-link.link-now {
+  color: var(--brand-color);
+}
+
+.button {
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+
+.projects-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--second-color);
+}
+
+.projects-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+}

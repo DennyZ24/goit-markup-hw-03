@@ -1,0 +1,71 @@
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.nav-link.link-now {
+  color: var(--brand-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+
+/* Преимущества */
+
+.feature-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--second-color);
+}
+
+.feature-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Команда */
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+  color: var(--second-color);
+}
+
+.team-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+}
