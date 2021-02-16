@@ -67,11 +67,8 @@
   border: 1px solid #eeeeee;
 }
 
-.stand {
-  margin-bottom: 20px;
-}
-
 .stand-text {
+  padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;

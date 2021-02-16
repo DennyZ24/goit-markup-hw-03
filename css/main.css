@@ -16,20 +16,13 @@
 /* Герой */
 .hero {
   background-color: var(--bg-color);
-  text-align: center;
-  margin-bottom: 94px;
-}
-
-.hero-text {
   padding-top: 200px;
-  padding-right: 240px;
   padding-bottom: 200px;
-  padding-left: 240px;
+  text-align: -webkit-center;
 }
 
 .hero-title {
   width: 696px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -56,7 +49,8 @@
 
 /* Преимущества */
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -97,7 +91,7 @@
 
 /* Специализация команды */
 .spec {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .img-list {
